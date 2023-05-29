@@ -46,8 +46,8 @@
 1. 有vuex, vue-router 跟 element-ui等ui套件的開發經驗
 2. data的綁定,component間相互傳值的操作
 ## react:
-1. hook 使用
-2. redux saga 
+1. hook 封裝, 達到高複用性
+2. 狀態管理的部分 有使用 redux, saga 跟 react-query的經驗
 
 > 有框架component的封裝,資料的傳遞,使用nodejs 跟 webpack 等工具經驗
 
