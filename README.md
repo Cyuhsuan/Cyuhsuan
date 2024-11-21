@@ -1,58 +1,32 @@
 # 介紹 
-> 我是張宇軒。我畢業於國立東華大學-應用數學系, 擅長有邏輯的安排專案進度,
-對code的要求也非常重視,以 
->1. 可擴展性 
->2. 可維護性 
->3. 效能性 這 三個為主要考量的基礎下撰寫
+> 我畢業於國立東華大學應用數學系，專長於專案進度規劃與程式開發，並重視代碼的可擴展性、可維護性與效能。在開發過程中，我更注重高效問題解決，習慣於提出問題並附上解決方案，促進團隊討論而非等待答案。
 
->對我來說能夠快速有效率地進行開發是最重要的, 所以專案的開發遇到問題時,我通常提出'疑問'還會附帶'我的解決方式'來進行討論,而不是單純的提問等待對方的答案。
-
-# 前端:
-> 曾擔任前端工程師,對於網頁的切版掌握 css, html, javascript 的能力,在切版的當下我也會將自己套用在使用者的情境去模擬這個畫面在接觸的的第一時間是否有使人混淆的區塊,來跟設計師做溝通討論,
-# 後端:
-> 也擔任後端工程師,使用 php 跟 mysql 來當作我的開發語言跟工具,有 義大利麵式網頁的撰寫,抑或是 restful api 的開發經驗,也有使用虛擬機器架設符合或類似正式環境的經驗(ubuntu,gitlab),現在使用docker來架設目前所需要的開發環境
+# 前端開發經驗:
+> 曾擔任前端工程師，精通 HTML、CSS 和 JavaScript，擅長網頁切版與視覺呈現。我會從使用者角度測試界面，確保畫面不會引起混淆，並與設計師密切合作進行優化。
+# 後端開發經驗:
+> 具備 PHP 和 MySQL 開發經驗，熟練義大利麵式結構與 RESTful API 設計。曾使用虛擬機器搭建類正式環境的開發環境（Ubuntu、GitLab），目前透過 Docker 來部署開發環境。
 > 
 # 工具
 ## git:
-會使用 git 當作我的板控工具,平時的 commit 也有依照固定風格提交,維持 log 的可觀察性,也有基本解決 conflict 的能力,必要的時候也會使用 cherry pick 或者 rebase 的方式來讓 log 更容易管理,有使用git的多人協作經驗
+使用 Git 進行版本控制，依照固定風格提交 commit 以維持日誌可觀察性。能有效解決衝突，並在必要時使用 cherry-pick 或 rebase 管理提交歷史，具有團隊協作經驗。
 ## css:
-1. @media 的使用,對於裝置大小進行不一樣的樣式套用(響應式)
-2. flex,grid的運用
-3. 使用 scss的經驗
+透過 @media 實現響應式設計，運用 Flexbox 和 Grid 進行佈局，並使用 SCSS 改善樣式結構。
 ## javascript:
-1. 使用 prototype 來模擬class的行為,讓 code 達到清晰,可閱讀的程度
-2. 使用 ajax 來跟後端取得資料,熟悉promise的操作甚至是 asyc await的語法,使異步動作看起來更加直觀
-3. 使用 jquery 等 lib ,來節省開發時間
-4. 基礎的 websocket 的實作經驗
+透過 prototype 模擬類別行為，確保代碼可讀性。利用 Ajax 與後端交互，並運用 Promise 和 async/await 使異步操作更直觀，具備 WebSocket 基礎實作經驗。
 ## php:
-1. 撰寫簡易的orm操作 select,insert,update 等,幫公司定義一套標準流程,跟統一函式的調用,
-2. 功能物件的撰寫,public 跟 static private 的使用,也會使用const定義物件的固定屬性
+編寫 ORM 操作（如 select、insert、update 等），為公司建立標準流程與統一函式調用。能夠有效使用 public、static、private 以及 const 定義常量。
 ## sql:
-1. 基本crud操作
-2. 語法效能的調整
+進行 CRUD 操作並調整 SQL 語法以提升效能。
 ## linux:
-1. 基本資料夾結構的操作,刪除,新增
-2. 檔案修改,新增
-3. 編寫排程,ex.設定每天下午五點固定執行特定command (git pull)
+操作基本資料夾結構，執行檔案修改與排程（例如設定每天定時執行特定命令）。
 ## docker:
-1. Dockerfile 撰寫
-2. docker-compose 使用
+撰寫 Dockerfile 並使用 Docker Compose 部署開發環境。
 # framework
 ## Angular2+:
-1. 有typescript的撰寫經驗,嚴格的型別檢查,泛型的寫法
-2. 使用 rxjs 將資料的處理用 stream 的方式實作的經驗
+使用 TypeScript，擅長型別檢查與泛型寫法。具備使用 RxJS 處理資料流的經驗。
 ## vue:
-1. 有vuex, vue-router 跟 element-ui等ui套件的開發經驗
-2. data的綁定,component間相互傳值的操作
+開發過程中運用 Vuex、Vue Router 和 Element-UI 等 UI 套件，進行資料綁定與跨組件數據傳遞。
 ## react:
-1. hook 封裝, 達到高複用性
-2. 狀態管理的部分 有使用 redux, saga 跟 react-query的經驗
-
-> 有框架component的封裝,資料的傳遞,使用nodejs 跟 webpack 等工具經驗
-
+使用 Hooks 封裝高復用性組件，並應用 Redux、Saga 和 React-Query 進行狀態管理。
 ## laravel:
- 1. mvc的概念運用
- 2. Eloquent ORM 的操作,hasnoe,hasmany,belongsnoe等定義方法,
- 3. 使用composer對依賴套件管理
- 4. 使用queue, 透過event push websocket通知
- 5. 建立基於 tcp/ip 的socket server, 解析生物雷達波裝置傳送的 tcp 二進制訊號
+應用 MVC 設計模式與 Eloquent ORM，處理資料關聯（hasOne、hasMany、belongsTo 等）。使用 Composer 管理依賴套件，並透過 Boardcast 和 Event 實現 WebSocket 通知。
